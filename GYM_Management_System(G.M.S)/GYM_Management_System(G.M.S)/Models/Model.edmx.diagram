@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f4e160e502245bfb758a37d6435d72d" Name="Diagram1">
+        <EntityTypeShape EntityType="gym_managementModel.Attendence" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Client" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.ClientBill" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.ClientBillTransection" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.ClientServiceList" Width="1.5" PointX="6" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Designation" Width="1.5" PointX="1.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Employee" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Expense" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.FoodPlan" Width="1.5" PointX="3" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.ProductBuying" Width="1.5" PointX="3.5" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.ProductPlan" Width="1.5" PointX="1.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Schedule" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.ScheduleTime" Width="1.5" PointX="3" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Sell" Width="1.5" PointX="8" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Servicess" Width="1.5" PointX="3.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.Storage" Width="1.5" PointX="5.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gym_managementModel.sysdiagram" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="gym_managementModel.FK__Attendenc__Clien__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Attendenc__Emplo__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ClientBil__Clien__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ClientSer__Clien__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__FoodPlan__Client__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Schedule__Client__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ScheduleT__Clien__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Sell__clientid__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ClientBil__Clien__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ClientSer__Servi__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Employee__Design__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Expense__Employe__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ProductBu__Emplo__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Schedule__Employ__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Sell__EmployeeId__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__ProductBu__Produ__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Storage__Product__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK__Schedule__Schedu__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="gym_managementModel.FK_Sell_Storage" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
